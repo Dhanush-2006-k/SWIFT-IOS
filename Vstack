@@ -1,0 +1,14 @@
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("Welcome!")
+                .font(.largeTitle)
+                .bold()
+
+            Text("I am learning SwiftUI")
+                .font(.title2)
+        }
+    }
+}
