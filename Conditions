@@ -1,0 +1,27 @@
+var mark = 75
+if mark >= 50 {
+    print("Pass")
+}
+else {
+    print("Fail")
+}
+
+If-Else Conditions
+------------------
+If-else is used to make decisions in a program.
+For example:
+- If a student scores above 50, they pass.
+- Otherwise, they fail.
+
+Else-If
+CODE:
+var mark = 85
+if mark >= 90 {
+    print("Grade A")
+} else if mark >= 75 {
+    print("Grade B")
+} else if mark >= 50 {
+    print("Grade C")
+} else {
+    print("Fail")
+}
