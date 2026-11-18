@@ -3,3 +3,10 @@ let age = 21
 
 print(name)
 print(age)
+
+
+\\Variables and constants are used to store data in a program.
+
+\\There are two ways to store values in Swift.
+\\ - var – Used when the value can be changed.
+\\ - let – Used when the value cannot be changed.
