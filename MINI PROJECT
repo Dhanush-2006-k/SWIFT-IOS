@@ -1,0 +1,23 @@
+var name="DHANUSH"
+var marks=[40,50,60,70,80]
+var tot=0
+for mark in marks{
+  tot+=mark
+}
+let avg=Double(tot)/Double(marks.count)
+print("name: \(name)")
+print("Marks:\(tot)")
+print("avg: \(avg)")
+if avg>50{
+  print("RESULT:\("Pass")")
+}else{
+  print("RESULT:\("Fail")")
+}
+
+
+OUTPUT:  
+
+name: DHANUSH
+Marks:300
+avg: 60.0
+RESULT:Pass
