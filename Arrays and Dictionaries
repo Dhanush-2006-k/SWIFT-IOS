@@ -1,0 +1,34 @@
+ARRAYS:
+->An array stores multiple values in an ordered collection.
+
+CODE: 
+var fruits = ["Apple", "Mango", "Orange"]
+print(fruits)----> ["Apple", "Mango", "Orange"]
+
+ACCESSING ARRAYELEMENT:
+var fruits = ["Apple", "Mango", "Orange"]
+print(fruits[0])---->Apple
+fruits.append("kiwi")----->["Apple", "Mango", "Orange","kiwi"]
+fruits.remove("Orange")---->["Apple", "Mango","kiwi"]
+
+//Important: Array indexing starts from 0, not 1.
+
+DICTIONARIES:
+->A dictionary stores values in key-value pairs.
+Think of it like student information:
+-> Key = Name
+-> Value = XXXX
+CODE:
+var student = [
+    "name": "XXXX",
+    "department": "CSE",
+    "college": "YYYY"
+]
+print(student["name"]!)----->XXXX
+print(student["department"]!)---->CSE
+
+ADDING A NEW KEY VALUE PAIRS:
+var student = ["name": "XXXX"]
+student["age"] = "21"
+print(student)---->["age": "21", "name": "XXXX"]
+
