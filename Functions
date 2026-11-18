@@ -1,3 +1,5 @@
+FUNCTIONS:
+
 func greeting() {
     print("Welcome to Swift Programming")----->Welcome to Swift Programming
 }
@@ -14,3 +16,12 @@ func add(a: Int, b: Int) {
 add(a: 10, b: 20)
 
 \\Parameters allow us to pass values into a function.
+
+FUNCTION WITH RETURN VALUE:
+
+//Functions can also return a result
+func multiply(a: Int, b: Int) -> Int {
+    return a * b
+}
+let result = multiply(a: 5, b: 4)
+print(result)---->20
