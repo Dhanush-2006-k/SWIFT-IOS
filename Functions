@@ -1,0 +1,16 @@
+func greeting() {
+    print("Welcome to Swift Programming")----->Welcome to Swift Programming
+}
+greeting()
+
+\\-->A function is a reusable block of code that performs a particular task.
+--->Instead of writing the same code repeatedly, you can create a function and call it whenever needed.
+
+Functions with Parameters:
+
+func add(a: Int, b: Int) {
+    print(a + b)
+}
+add(a: 10, b: 20)
+
+\\Parameters allow us to pass values into a function.
