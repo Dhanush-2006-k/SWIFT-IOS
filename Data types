@@ -1,0 +1,22 @@
+var name: String = "Dhanush"
+var age: Int = 21
+var percentage: Double = 85.5
+var height: Float = 5.8
+var isStudent: Bool = true
+
+print(name)
+print(age)
+print(percentage)
+print(height)
+print(isStudent)
+
+
+//Data types define what kind of value a variable can store.
+Swift has several important data types.
+-------------------------------------
+Datatype	Meaning	         Example
+String	  Text	         -> "Dhanush"
+Int	      Wholenumbers	  ->25
+Double	  Decimal numbers	->85.5
+Float	    Decimal numbers	->10.5
+Bool	    True/false	  ->true
