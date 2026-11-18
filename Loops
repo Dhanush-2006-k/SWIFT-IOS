@@ -1,0 +1,16 @@
+-->Loops are used to execute the same code multiple times.
+-->Swift provides different loops. Let's learn two important ones.
+
+FOR and WHILE
+for i in 1...5 {
+    print(i)---->1 2 3 4 5
+}
+//A for loop is used when you know how many times you want to repeat something.
+
+var i = 1
+
+while i <= 5 {
+    print(i)---->1 2 3 4 5
+    i += 1
+}
+//A while loop executes as long as the condition is true.
