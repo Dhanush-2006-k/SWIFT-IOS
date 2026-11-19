@@ -1,0 +1,9 @@
+let a=Int(readLine()!)!      //user input 1
+let b=Int(readLine()!)!      //user input 2
+let c=a+b                    //add both
+if c%2==0{                   //check even or odd
+  print("even...")           //print if true
+}else{
+  print("odd...")            //print if false
+}
+
