@@ -1,0 +1,5 @@
+var name: String? = nil
+let n=name ?? "deva"
+print(n)   ------>deva
+
+//Provides a default value if nil
