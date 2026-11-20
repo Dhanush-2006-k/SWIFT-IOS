@@ -1,0 +1,42 @@
+String manipulation means performing different operations on text, such as:
+- Finding the length.
+- Converting uppercase and lowercase.
+- Joining two strings.
+- Extracting characters.
+- Checking whether a word exists.
+
+Uppercase and lowercase
+-----------------------
+var name = "swift programming"
+print(name.uppercased())  -->SWIFT PROGRAMMING
+print(name.lowercased())  -->swift programming
+
+Find string length
+------------------
+var name = "xxx"
+print(name.count)----->3
+
+Combine two strings
+-------------------
+var first = "deva"
+var last = "nath"
+var fullname = first+" "+last
+print(fullname)----->devanath
+
+String interpolation
+--------------------
+> String interpolation means inserting a variable inside a string using \().
+
+var name = "deva"
+var age = 21
+print("My name is \(name)")   --->My name is deva
+print("My age is \(age)")      --->My age is 21
+
+Check whether a word exists
+---------------------------
+var message = "I love Swift programming"
+if message.contains("Swift") {
+    print("Word found")   ----->Word found
+} else {
+    print("Word not found")
+}
