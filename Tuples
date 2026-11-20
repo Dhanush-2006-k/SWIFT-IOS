@@ -1,0 +1,42 @@
+--> A tuple is used to store multiple values of different data types in a single variable.
+-->Tuples are useful when a function needs to return multiple related values.
+For example, a student has:
+- Name – String
+- Age – Int
+- Mark – Double
+Instead of creating three separate variables, we can use a tuple.
+
+Creating a tuple
+---------------
+var student = ("Dhanush", 21, 85.5)
+print(student)---->("Dhanush", 21, 85.5)
+
+Access tuple values
+-------------------
+->We can access tuple values using index numbers.
+->Tuple indexing starts from 0.
+var student = ("Dhanush", 21, 85.5)
+print(student.0)---->Dhanush
+print(student.1)---->21
+print(student.2)---->85.5
+
+Named tuples
+------------
+->We can give names to each value.
+var student = (
+    name: "Dhanush",
+    age: 21,
+    mark: 85.5
+)
+print(student.name)---->Dhanush
+print(student.age)----->21
+print(student.mark)---->85.5
+
+Tuple in a function
+-------------------
+func getStudent() -> (String, Int) {
+    return ("Dhanush", 21)
+}
+let result = getStudent()
+print(result.0)---->Dhanush
+print(result.1)---->21
