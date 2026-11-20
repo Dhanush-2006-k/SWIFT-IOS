@@ -1,0 +1,17 @@
+var name: String? = "deva"
+if let studentName = name {
+    print("Student name is \(studentName)")
+} else {
+    print("Name is not available")
+}
+//OUTPUT
+   Student name is deva
+
+var name: String? = nil
+if let studentName = name {
+    print("Student name is \(studentName)")
+} else {
+    print("Name is not available")
+}
+//OUTPUT
+    Nmae is not available
