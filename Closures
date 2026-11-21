@@ -1,0 +1,30 @@
+-> A closure is a block of code that can be stored in a variable and executed whenever needed.
+
+let greeting = {
+    print("Welcome to Swift")
+}
+greeting()
+
+ Closure with parameters:
+-------------------------
+let add = { (a: Int, b: Int) in
+    print(a + b)------> 30
+}
+add(10, 20)
+
+Closure with return value:
+--------------------------
+let multiply = { (a: Int, b: Int) -> Int in
+    return a * b   -------------->20
+}
+let result = multiply(5, 4)
+print(result)
+
+Closure in an array:
+--------------------
+let numbers = [10, 20, 30, 40]
+let result = numbers.map {
+    $0 * 2  
+}print(result)------>[20, 40, 60, 80]
+
+print(result)
