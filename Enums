@@ -1,0 +1,38 @@
+-> Enum stands for Enumeration.
+-> It is used to define a fixed set of related values.
+Basic enum:
+----------
+enum TrafficSignal {
+    case red
+    case yellow
+    case green
+}
+var signal = TrafficSignal.red
+print(signal)-----> red
+
+Enum with switch:
+-----------------
+enum TrafficSignal {
+    case red, yellow, green
+}
+var signal = TrafficSignal.green
+switch signal {
+case .red:
+    print("Stop")
+case .yellow:
+    print("Get Ready")
+case .green:
+    print("Go")------->OUTPUT  "Go"
+}
+
+Enum with raw values:
+---------------------
+-> Enums can also have predefined values.
+
+enum Day: Int {
+    case monday = 1
+    case tuesday = 2
+    case wednesday = 3
+}
+print(Day.monday.rawValue)---->1
+print(Day.tuesday.rawValue)---->2
