@@ -1,0 +1,35 @@
+-> Both are used to create custom data types and organize data and functions.
+Struct:
+------
+-> A struct is a custom data type that can contain variables and functions.
+-> Structs are widely used in SwiftUI to create views and models.
+
+struct Student {
+    var name: String
+    var age: Int
+    func display() {
+        print("Name: \(name)")
+        print("Age: \(age)")
+    }
+}
+var student1 = Student(name: "Deva", age: 29)
+student1.display()
+
+class:
+------
+-> A class is similar to a struct, but it supports inheritance and reference-type behavior.
+
+class Student {
+    var name: String
+    var age: Int
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+    func display() {
+        print("Name: \(name)")
+        print("Age: \(age)")
+    }
+}
+let student1 = Student(name: "Dhanush", age: 21)
+student1.display()
